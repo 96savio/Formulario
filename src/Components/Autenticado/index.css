@@ -1,0 +1,222 @@
+#Contas{
+  background: rgb(40, 40, 43);
+      color: rgb(168, 168, 179);
+  width: 100%;
+  height: 100%;
+  padding-bottom: 20px;
+}
+
+.logout{
+    display: flex;
+
+    
+    height: 150px;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 10px;
+   margin: 0 auto;
+   border-bottom: solid rgb(214, 204, 204) 1px;
+  
+}
+
+.logout button{
+ margin-left: 2px;
+  width:100px;
+  height: 25px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(130, 87, 229);
+  color: rgb(255, 255, 255);
+  margin-top: 1px;
+}
+.navegar{
+ margin-top: 100px;
+  border: none;
+  background-color: rgb(130, 87, 229);
+  color: rgb(255, 255, 255);
+  width:200px;
+  height: 25px;
+  margin-right: 2px;
+  border-radius: 5px;
+  padding-top: 5px;
+
+}
+a{
+  text-decoration: none;
+  color: rgb(255, 255, 255) ;
+}
+
+nav{
+    
+     width: 100%;
+     height: 100px;
+   
+    
+    margin-bottom: 20px;
+    
+   }
+   
+   .search{
+    margin-top: 20px;
+     width: 350px;
+     border:solid rgb(214, 204, 204) 1px;
+     display: flex;
+     flex-direction: row;
+     border-radius: 40px;
+     float: right;
+    
+    
+   }
+   
+   i{
+    
+    color: rgb(47, 13, 238);
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    position:absolute;
+
+   
+    
+   }
+   
+  
+   
+   .pesquisa{
+     box-shadow: 0 0 0 0;
+     outline: 0;
+     width:100%;
+     height: 35px;
+    align-items: center;
+    justify-items: center;
+     border: none;
+    color: black;
+    font-size: medium;
+    text-transform: capitalize;
+    height: 20px;
+    border-radius:15px;
+    
+   }
+   input::placeholder {
+     color: rgb(173, 171, 171);
+   }
+   
+   .pesquisar{
+    display: flex;
+    flex-direction: row-reverse;
+     width: 350px;
+     text-align: center;
+     border-radius: 20px;
+   }
+
+
+.pendentes{
+  justify-content: space-between;
+ width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5px;
+}
+   .contas{
+    display: flex;
+    flex-direction: column;
+     width: 300px;
+     height: 350px;
+     text-align: center;
+     border-radius: 5px;
+     background-color: rgb(54, 51, 51);
+    text-align: left;
+    align-items: center;
+    margin-right: 4px;
+    margin-top: 5px;
+    margin-left: 4px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    
+   }
+
+   .contas label{
+    border:  solid 1px rgb(189, 181, 181);
+    width:250px;
+    border-radius: 5px;
+   text-align: left;
+   
+   background-color: rgb(241, 250, 250);
+
+   }
+
+   .contas input{
+   text-align: left;
+   width:90%;
+   height: 15px;
+   background-color: rgb(241, 250, 250);
+   border-bottom:  solid 1px rgb(196, 183, 183);
+  padding-bottom: 5px;
+   }
+
+   .contas button{
+    text-align: center;
+    margin: 0 auto;
+    width:100px;
+    height: 25px;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(130, 87, 229);
+    color: rgb(255, 255, 255);
+    }
+
+    @media (max-width: 480px){
+      #Contas{
+        
+           width:100%;
+           margin: 0 auto;
+         }
+      
+      
+      
+         .logout{
+          width: 95%;
+          margin: 0 auto;
+       
+          display: flex;
+
+
+  
+      } 
+  
+  
+
+      .pendentes {
+        width: 95%;
+          margin: 0 auto;
+        gap: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        
+      }
+
+
+
+      .contas{
+        width: 95%;
+          margin: 0 auto;
+         gap: 2px;
+        display: flex;
+     flex-wrap: wrap;
+ 
+    }
+    
+    .contas button{
+
+     
+      margin: 0 auto;
+      margin-top: 25px;
+    }
+
+   
+  }

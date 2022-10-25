@@ -1,0 +1,110 @@
+.formcontrol{
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    width: 100%;
+    margin: 0 auto;
+
+    align-items: center;
+    justify-content: center;
+   
+    background-color: rgb(18, 18, 20);
+    color: rgb(168, 168, 179);
+}
+.formcontrol h5{
+    margin: 0 auto;
+    color: rgb(168, 168, 179);
+    font-size: medium;
+}
+.formcadastro{
+  padding: 25px 10px 25px 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+   width: 320px;
+    height: 380px;
+    text-align: left;
+    background: rgb(32, 32, 36);
+    color: rgb(168, 168, 179);
+     
+}
+
+label{
+display: flex;
+flex-direction: column;
+margin-top: 5px;
+padding: 5px;
+}
+
+input{
+    box-shadow: 0 0 0 0;
+    border-radius: 5px;
+    font-size: medium;
+    border: none;
+    background-color: white;
+    outline: 0;
+    height: 25px;
+    align-items: center;
+    justify-items: center;
+}
+
+.button{
+  background-color: rgb(130, 87, 229);
+  border-radius: 5px;
+  border: 0px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  height: 50px;
+  font-size: 16px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.createaccount{
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+}
+.formcontrol a{
+color:  rgb(130, 87, 229);
+text-decoration: none;
+}
+
+@media (max-width: 480px){
+    .formcontrol{
+     
+       
+       
+         padding-top: 50px;
+         padding-bottom: 50px;
+      
+       }
+    
+    
+       .formcadastro{
+        width: 90%;
+       background: rgb(32, 32, 36);
+       color: rgb(168, 168, 179);
+       border-radius: 5px;
+      
+     } 
+   
+       input{
+        width: 95%;
+        height: 30px;
+    
+         
+        }
+       
+        .button{
+    
+        margin: 0 auto;
+        margin-top: 10px;
+      }
+
+}
+
+
+ 
