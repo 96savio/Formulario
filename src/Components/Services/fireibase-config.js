@@ -3,9 +3,9 @@ import { initializeApp } from "firebase/app";
 import { getAuth} from "firebase/auth";
 
 const firebaseConfig ={
-  apiKey: "AIzaSyBWnCmf4F5ZAKoW-zOr7iSgmH4_q5eh43w",
-  authDomain: "formcontrol-79762.firebaseapp.com",
-  projectId: "formcontrol-79762",
+  apiKey: "#dados key",
+  authDomain: "# ",
+  projectId: "#",
   
 };
 
